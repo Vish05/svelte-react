@@ -1,0 +1,19 @@
+import { writable } from "svelte/store";
+
+export const FeedbackStore = writable([
+  {
+    id: 1,
+    text: "Best experience for me, Providing best and cheap postpaid and prepaid plan as copmpair other provider",
+    rating: 10,
+  },
+  {
+    id: 2,
+    text: "Cheap Rate,Network and other services are best",
+    rating: 9,
+  },
+  {
+    id: 3,
+    text: "Providing best and cheap postpaid and prepaid plan as copmpair other provider",
+    rating: 10,
+  },
+]);
